@@ -1,0 +1,18 @@
+using UnityEngine; 
+using System.Collections;
+
+public class MouseHover : MonoBehaviour {
+
+void start() {
+    renderer.material.color = Color.black; 
+  }
+  
+ void OnMouseEnter() {
+    renderer.material.color = Color.red;
+    }
+    
+ void OnMouseExit() {
+    renderer.material.color = Color.black; 
+    }
+    
+}
